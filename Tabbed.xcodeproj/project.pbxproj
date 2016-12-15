@@ -15,6 +15,9 @@
 		33F91EBE1E030CE900A4B3BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F91EBC1E030CE900A4B3BE /* LaunchScreen.storyboard */; };
 		33F91EC91E030CE900A4B3BE /* TabbedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F91EC81E030CE900A4B3BE /* TabbedTests.swift */; };
 		33F91ED41E030CE900A4B3BE /* TabbedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F91ED31E030CE900A4B3BE /* TabbedUITests.swift */; };
+		33F91EE21E03116200A4B3BE /* Tarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F91EE11E03116200A4B3BE /* Tarea.swift */; settings = {ASSET_TAGS = (); }; };
+		33F91EE41E03128300A4B3BE /* iMac-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F91EE31E03128300A4B3BE /* iMac-icon.png */; settings = {ASSET_TAGS = (); }; };
+		33F91EE61E0319AE00A4B3BE /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F91EE51E0319AE00A4B3BE /* Cell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		33F91ECF1E030CE900A4B3BE /* TabbedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F91ED31E030CE900A4B3BE /* TabbedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedUITests.swift; sourceTree = "<group>"; };
 		33F91ED51E030CE900A4B3BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F91EE11E03116200A4B3BE /* Tarea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tarea.swift; sourceTree = "<group>"; };
+		33F91EE31E03128300A4B3BE /* iMac-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMac-icon.png"; sourceTree = "<group>"; };
+		33F91EE51E0319AE00A4B3BE /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		33F91EA51E030CE900A4B3BE = {
 			isa = PBXGroup;
 			children = (
+				33F91EE11E03116200A4B3BE /* Tarea.swift */,
 				33F91EB01E030CE900A4B3BE /* Tabbed */,
 				33F91EC71E030CE900A4B3BE /* TabbedTests */,
 				33F91ED21E030CE900A4B3BE /* TabbedUITests */,
@@ -103,9 +110,11 @@
 				33F91EB31E030CE900A4B3BE /* FirstViewController.swift */,
 				33F91EB51E030CE900A4B3BE /* SecondViewController.swift */,
 				33F91EB71E030CE900A4B3BE /* Main.storyboard */,
+				33F91EE51E0319AE00A4B3BE /* Cell.swift */,
 				33F91EBA1E030CE900A4B3BE /* Assets.xcassets */,
 				33F91EBC1E030CE900A4B3BE /* LaunchScreen.storyboard */,
 				33F91EBF1E030CE900A4B3BE /* Info.plist */,
+				33F91EE31E03128300A4B3BE /* iMac-icon.png */,
 			);
 			path = Tabbed;
 			sourceTree = "<group>";
@@ -231,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F91EE41E03128300A4B3BE /* iMac-icon.png in Resources */,
 				33F91EBE1E030CE900A4B3BE /* LaunchScreen.storyboard in Resources */,
 				33F91EBB1E030CE900A4B3BE /* Assets.xcassets in Resources */,
 				33F91EB91E030CE900A4B3BE /* Main.storyboard in Resources */,
@@ -260,7 +270,9 @@
 			files = (
 				33F91EB61E030CE900A4B3BE /* SecondViewController.swift in Sources */,
 				33F91EB21E030CE900A4B3BE /* AppDelegate.swift in Sources */,
+				33F91EE61E0319AE00A4B3BE /* Cell.swift in Sources */,
 				33F91EB41E030CE900A4B3BE /* FirstViewController.swift in Sources */,
+				33F91EE21E03116200A4B3BE /* Tarea.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
